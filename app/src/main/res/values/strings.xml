@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">mobilelab2</string>
+    <string name="add_student_dialog_header">Добавить студенты</string>
+</resources>

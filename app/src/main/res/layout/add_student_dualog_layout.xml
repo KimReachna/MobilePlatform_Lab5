@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fg_add_student_name"
+        android:inputType="text"
+        android:hint="Введите фамилия студента"
+        android:layout_margin="2dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите имя студента"
+        android:inputType="text"
+        android:id="@+id/fg_add_student_mark"
+        android:layout_margin="2dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Введите идентификатор студента"
+        android:id="@+id/fg_add_student_id"
+        android:layout_margin="2dp"/>
+
+</LinearLayout>
